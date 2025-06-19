@@ -1,0 +1,407 @@
+@media (min-width: 1024px) {
+  .navbar {
+    background: linear-gradient(rgb(226, 226, 226), white);
+  }
+
+  .btn-g {
+    background: linear-gradient(90deg, red, rgb(156, 2, 2));
+    color: white;
+  }
+
+  .icon {
+    color: rgb(202, 11, 11);
+  }
+
+  .img-carousel {
+    height: 500px;
+    object-fit: fill;
+  }
+
+  .carousel-control-prev {
+    left: -50px;
+  }
+  .carousel-control-next {
+    right: -50px;
+  }
+
+  .t-text {
+    padding-left: 8rem;
+  }
+  .overlay-container {
+    width: 100%;
+    height: 500px;
+  }
+  .image-in {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 3, 0.692);
+  }
+  .cd {
+    box-shadow: 0 10px 10px 10px rgba(43, 43, 43, 0.151);
+    border-radius: 14px;
+  }
+  .cd a:hover {
+    color: rgb(161, 2, 2);
+  }
+  .cd a {
+    color: black;
+    text-decoration-line: none;
+  }
+
+  .cc {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 3;
+    padding-bottom: 0.5rem;
+  }
+  .bt-get {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .image-2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .n-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.767);
+  }
+  .bt-find {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    width: 20%;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+  }
+  .lg-w {
+    width: 70%;
+  }
+  .image-3 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .pf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+  }
+  .rd {
+    background-color: rgb(216, 24, 24);
+    color: white;
+  }
+  .rd:hover {
+    background-color: rgb(161, 10, 10);
+  }
+  .get-bg {
+    background: linear-gradient(90deg, rgb(141, 6, 6), rgb(17, 15, 15));
+  }
+  .get-bg h1 {
+    width: 50%;
+    margin-left: 5rem;
+  }
+  .open {
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(189, 14, 14);
+    color: white;
+  }
+  .pa a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .lp {
+    width: 500px;
+    height: 500px;
+    object-fit: none;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background: url(https://www.africanexaminer.com/wp-content/uploads/UBA.jpg);
+  }
+  .c-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+
+/* phoneview */
+@media (max-width: 600px) {
+  .navbar-phone {
+    background: linear-gradient(rgb(226, 226, 226), white);
+  }
+  .navbar-ipad {
+    display: none;
+  }
+  .navbar-tablet {
+    display: none;
+  }
+  .img_t {
+    display: none;
+  }
+
+  .search {
+    margin-left: -6rem;
+  }
+  .btn-g {
+    background: linear-gradient(90deg, red, rgb(156, 2, 2));
+    color: white;
+  }
+  .icon {
+    color: rgb(202, 11, 11);
+  }
+
+  .t-text {
+    padding-left: 4rem;
+    margin-top: -2rem;
+  }
+  .overlay-container {
+    width: 100%;
+    height: 300px;
+  }
+  .image-in {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 3, 0.692);
+  }
+  .cd {
+    border-bottom: 1px solid rgb(182, 181, 181);
+  }
+  .cd a:hover {
+    color: rgb(161, 2, 2);
+  }
+  .cd a {
+    color: black;
+    text-decoration-line: none;
+  }
+  .bt-get {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+  .image-2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .n-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.767);
+  }
+  .bt-find {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+  }
+
+  .image-3 {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .pf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+  }
+  .rd {
+    background-color: rgb(216, 24, 24);
+    color: white;
+  }
+  .rd:hover {
+    background-color: rgb(161, 10, 10);
+  }
+  .get-bg {
+    background: linear-gradient(90deg, rgb(141, 6, 6), rgb(17, 15, 15));
+    padding: 8px;
+  }
+  .open {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(189, 14, 14);
+    color: white;
+    margin-top: 10px;
+  }
+
+  .pa a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .lp {
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background: url(https://www.africanexaminer.com/wp-content/uploads/UBA.jpg);
+  }
+  .c-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+  }
+}
+
+/* tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .navbar-tablet {
+    background: linear-gradient(rgb(226, 226, 226), white);
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-phone {
+    display: none;
+  }
+  .btn-g {
+    background: linear-gradient(90deg, red, rgb(156, 2, 2));
+    color: white;
+  }
+  .icon {
+    color: rgb(202, 11, 11);
+  }
+
+  .t-text {
+    padding-left: 8rem;
+    margin-top: -2rem;
+  }
+  .overlay-container {
+    width: 100%;
+    height: 400px;
+  }
+  .image-in {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 3, 0.692);
+  }
+  .cd {
+    border-bottom: 1px solid rgb(182, 181, 181);
+  }
+  .cd a:hover {
+    color: rgb(161, 2, 2);
+  }
+  .cd a {
+    color: black;
+    text-decoration-line: none;
+  }
+  .bt-get {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+  }
+  .image-2 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .n-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 0, 0, 0.767);
+  }
+  .bt-find {
+    background: linear-gradient(90deg, red, rgb(148, 5, 5));
+    border: none;
+    width: 40%;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+  }
+  .image-3 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+  .pf {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+  }
+  .rd {
+    background-color: rgb(216, 24, 24);
+    color: white;
+  }
+  .rd:hover {
+    background-color: rgb(161, 10, 10);
+  }
+  .get-bg {
+    background: linear-gradient(90deg, rgb(141, 6, 6), rgb(17, 15, 15));
+    padding: 8px;
+  }
+  .open {
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(189, 14, 14);
+    color: white;
+    margin-top: 10px;
+  }
+
+  .pa a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .lp {
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background: url(https://www.africanexaminer.com/wp-content/uploads/UBA.jpg);
+  }
+  .c-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+}
